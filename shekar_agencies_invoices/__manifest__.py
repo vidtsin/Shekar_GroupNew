@@ -3,7 +3,7 @@
     'version': '12.0',
     'category': 'Tools',
     'summary': "This module consists, the customized Templates",
-    'depends': ['account_tax_python','account','l10n_in','custom_fields_prixgen'],
+    'depends': ['account_tax_python','account','l10n_in','custom_fields_shekar'],
     'website': 'http://www.prixgen.com',
     'data': [
              'views/report_invoice_document_inherit.xml',
