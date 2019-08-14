@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+   <record model="ir.ui.view" id="account_invoice_form_inherits">
+        <field name="name">account invoice form view</field>
+        <field name="model">account.invoice</field>
+        <field name="inherit_id" ref="account.invoice_form"/>
+        <field name="arch" type="xml">          
+            <field name="team_id" position="after">
+                <field name="payment_method"/> 
+                <field name="order_type"/>     
+            </field>
+            <field name="partner_id" position="after">
+                <field name="ext_doc_no"/> 
+                <field name="custom_po_no" string="Customer PO Number"/> 
+                <field name="po_date" string="Customer PO Date"/> 
+                <field name="confirmation_date"/>
+                <field name="pricelist_id"/>
+            </field>
+            <xpath expr="//field[@name='invoice_line_ids']/tree/field[@name='name']" position="after">
+                <field name="l10n_in_hsn"/>
+                        
+            </xpath>
+        </field>
+    </record>
+</odoo>
