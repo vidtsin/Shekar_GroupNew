@@ -530,7 +530,7 @@ table tr td{
                 <div>
                     <div>         
                         <p>      
-                            <span t-field="o.amount_total_words"/>
+                            <span t-field="o.strom"/>
                         </p>
                     </div>
                 </div>
