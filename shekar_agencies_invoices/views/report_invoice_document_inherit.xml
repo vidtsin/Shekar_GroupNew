@@ -525,7 +525,7 @@ table tr td{
                     </tr>
                 </table>
             <!-- </div>    -->
-        <div style="display:block; margin-bottom:-10px; position:fixed; bottom:199px; top:1052px;">
+        <div style="margin-bottom:-10px; position:fixed;top:950px;">
             <div class="row">
                 <div>
                     <div>         
