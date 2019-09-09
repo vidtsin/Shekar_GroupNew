@@ -1,6 +1,6 @@
 {
     'name': 'Shekar agencies invoice Model',
-    'version': '12.10',
+    'version': '12.11',
     'category': 'Tools',
     'summary': "This module consists, the customized Templates",
     'depends': ['account_tax_python','account','l10n_in','custom_fields_shekar','customer_vendor_product_assets_number'],
